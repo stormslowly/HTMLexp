@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+  <style type="text/css">
+  html,
+  body {
+    height: 100%
+  }
+  @-webkit-keyframes moveit {
+    from {
+      left: 190px;
+    }
+    to {
+      left: 210px;
+    }
+  }
+  .block {
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: #00ffaa;
+  }
+  .block:hover {
+    -webkit-animation: moveit 0.1s linear 0s 4 alternate;
+  }
+
+  </style>
+</head>
+
+
+
+<body>
+
+  <div class="block"></div>
+
+
+</body>
+
+</html>
