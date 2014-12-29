@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <title>Draw Nav Button</title>
+  <style type="text/css">
+  html {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  .nav-button {
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #eee;
+  }
+  .nav-drawer .contain {
+    transform: translate3d(130px, 0, 0);
+    position: fixed;
+  }
+  .overlayer {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .contain {
+    color: #fff;
+    background-color: #888;
+    height: 100%;
+    transition: transform 0.2s;
+  }
+  .scroll-area {
+    padding: 100px;
+    height: 100%;
+    /*position: absolute;*/
+    overflow: auto;
+    box-sizing:border-box;
+    /*border:10px red solid;*/
+  }
+  .nav-drawer .nav-button {
+    display: none;
+  }
+  .nav-drawer .overlayer {
+    display: block;
+    z-index: 9999;
+    left: 130px;
+  }
+  </style>
+</head>
+
+<body>
+  <button class="nav-button">
+    M
+  </button>
+  <div class="overlayer"></div>
+  <div class="contain">
+
+    <div class="scroll-area">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eius officia facilis consectetur commodi, aspernatur cumque consequatur architecto! Fugit provident iusto maiores explicabo quisquam obcaecati, atque officia, magni suscipit odio.
+
+
+    aaaaaaaaaaaaaaaaaaaaaaa
+
+
+    </div>
+
+  </div>
+  <script type="text/javascript">
+  $(function() {
+    var body = $('body');
+
+    $('.nav-button').click(function() {
+      body.addClass('nav-drawer');
+    })
+
+    $('.overlayer').click(function() {
+      body.removeClass('nav-drawer');
+    })
+
+  })
+  </script>
+
+
+
+</body>
+
+</html>

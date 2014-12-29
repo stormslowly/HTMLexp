@@ -1,0 +1,22 @@
+{
+  "name": "drawernav",
+  "version": "0.0.1",
+  "authors": [
+    "stormslowly <stormslowly@gmail.com>"
+  ],
+  "description": "drawer like nav",
+  "main": "index.html",
+  "keywords": [
+    "nav",
+    "drawer"
+  ],
+  "license": "MIT",
+  "homepage": "stormslowly.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
